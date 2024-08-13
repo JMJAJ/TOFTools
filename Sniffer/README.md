@@ -9,4 +9,4 @@
 ```
 - *.md version is for fun, glhf
 
-<img align="left" width="256px" src="https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_qipao_58.png" style="padding-right:10px;" />
+<img align="left" width="64px" src="https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_qipao_58.png" style="padding-right:10px;" />
