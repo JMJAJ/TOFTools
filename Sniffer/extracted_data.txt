@@ -1,0 +1,190 @@
+<hotta>3$big3</>
+<hotta>3$big6</>
+<hotta>17$Quick$F08D6D4CD5D147F8BEEEA2A245D93213&55877524524871&Prometeo#a$void001_D$35$100$1$4$1$2</>
+<hotta>3$big6</>
+<hotta>3$big6</>
+<hotta>17$Boss$1A04B51DBB254A79A35C3ED1401DCE16&55963424392145&Deslorator$BigRichMan_D$1$100$1$4$1$2</>
+<hotta>3$big6</>
+<hotta>17$Quick$F59142ECBEEC4747A79025F211875532&55856049716125&f1chee$void_SY_6$80$100$1$4$1$2</>
+<hotta>3$big17</>
+<hotta>17$Quick$66A22D597B5D4A1A8AF73FADEEEF5B5E&55860344774185&S_Rosé$Team8P_04_D$60$100$1$8$1$2</>
+<hotta>3$big19</>
+<hotta>3$big18</>
+<hotta>3$big20</>
+<hotta>3$big31</>
+<hotta>17$Team$CB933FDC32C940AA8C1C06DD8BB52F6A&55963424569144&AcousolhBeast$void_SY_3$80$100$3$4$pls help$2</>
+<hotta>3$big17</>
+<hotta>17$Quick$9BB70BC3807747398EC34BADDD52465D&55933359113622& Seb $FB_Team09_D_Balance$95$100$1$4$1$2</>
+<hotta>3$big8</>
+<hotta>3$big6</>
+<hotta>3$big6</>
+<hotta>17$Team$CB933FDC32C940AA8C1C06DD8BB52F6A&55963424569144&AcousolhBeast$void_SY_3$80$100$3$4$pls help$2</>
+<hotta>17$Boss$AB317AA551704B6986088D9B8C9D07B2&55877524608736&PAPIRRIN$Norn_Boss_1$1$100$1$8$1$2</>
+<hotta>2$6</>
+<hotta>2$17</>
+<hotta>17$Quick$EF56C2EA86AC48229BDD9393EF34128C&55963424404372&Ameleïa$NoTarget$1$100$1$8$1$2</>
+<hotta>3$big6</>
+<at>@AresZ</>
+<hotta>17$Quick$AB317AA551704B6986088D9B8C9D07B2&55877524608736&PAPIRRIN$Norn_Boss_1$1$100$3$8$1$2</>
+<at>@チャンピオンテツノ悪夢</>
+<hotta>17$Quick$4BD5B602173641F2B4986BC3D70FE5DE&55963424122248&yu-he$void001_D$35$100$1$4$1$2</>
+<gradient color1="#FF0000" color2="#0000FF">Text</>
+<hotta>3$big13</>
+<at>@AresZ</>
+<hotta>17$Quick$AB317AA551704B6986088D9B8C9D07B2&55877524608736&PAPIRRIN$Norn_Boss_1$1$100$3$8$1$2</>
+<at>@Peluchita </>
+<at>@チャンピオンテツノ悪夢</>
+<hotta>17$Team$50B999886A7646C2871F3134B7146D6A&55963424525703&Miss War$Homeland_Boss_1$18$100$3$8$Come join now.$2</>
+<hotta>3$big78</>
+<hotta>2$4</>
+<at>@チャンピオンテツノ悪夢</>
+<breakfate_skillmsg_selfname>L</>
+<DC03HD_D2></>
+<Dubbing></>
+<blue></>
+<at>@Peluchita </>
+<at>@AresZ</>
+<at>@チャンピオンテツノ悪夢</>
+<hotta></>
+<hotta>3$big2</>
+<hotta>2$30</>
+<hotta>2$30</>
+<hotta>2$30</>
+<hotta>17$Team$F6C1F1FD6DF844B2A3DD3FE55FFC1762&55916179243241&Kurosekai$FB_Team09_D_Balance$95$100$1$4$Come join now.$2</>
+<hotta>3$big6</>
+<hotta>17$Quick$4953A25D4A2743EE9F9F4715E96D86B9&55963424392145&Deslorator$BigRichMan_D$1$100$1$4$1$2</>
+<hotta>17$Quick$B9C154D80FBD4B9D8C9FD8ECF9CC3360&55847459750390&Daxter#e$FB32_WorldBoss_level2$50$100$1$4$1$2</>
+<hotta>3$big23</>
+<hotta>17$Quick$03D605562A0E4048AD1D78ED8EB9101A&55877524524871&Prometeo#a$FB_Team09_D_VIII$90$100$1$4$1$2</>
+<hotta>17$Team$434E537F69154CAA8B93085AADE27B36&55963424533545& OHAE$void001_D$35$100$1$4$help plz$2</>
+<hotta>17$Boss$E9F6DE74318C453EA9A313A2D954EE31&55856049730639&　     $Norn_Boss_1$1$100$3$8$1$2</>
+<hotta>3$big1</>
+<hotta>17$Boss$4953A25D4A2743EE9F9F4715E96D86B9&55963424392145&Deslorator$BigRichMan_D$1$100$2$4$1$2</>
+<hotta>3$big1</>
+<hotta>17$Boss$EBA4358F24954A1DB1A47B7EB22585BC&55851754766202&Saisen_$Homeland_Boss_2$18$100$1$8$1$2</>
+<hotta>3$big1</><hotta>2$17</>
+<hotta>17$Quick$B698BF38A0CF487EB83DE42CD5106754&55877524532080&Sher#l$FB32_WorldBoss_level2$50$100$1$4$1$2</>
+<hotta>17$Quick$1E063ED7C8D74ADB81DE72BFAEDAF0B0&55873229553840&Diosuke$void_SY_5$80$100$1$4$1$2</>
+<hotta>2$17</>
+<hotta>3$big6</>
+<at>@チャンピオンテツノ悪夢</>
+<hotta></>
+<hotta></>
+<hotta></>
+<hotta></>
+<hotta></>
+<hotta></>
+<hotta></>
+<hotta>3$big6</>
+<hotta>3$big22</>
+<hotta>3$big6</>
+<at>@NicoNicoNii</>
+<hotta></>
+<hotta></>
+<hotta>3$big6</>
+<at>@DarkScythe</>
+<hotta>3$big6</>
+<at>@Grie 木兎</>
+<hotta></>
+<hotta></>
+<at>@チャンピオンテツノ悪夢</>
+<hotta></>
+<hotta></>
+<hotta>3$big13</>
+<hotta>17$Quick$B63414B0833F4E9FA058FBAB867379B9&55929064163528&☆Ichiban$FB_Team09_D_Balance$95$100$1$4$1$2</>Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>17$Boss$D5B07440D7B8474296397EA746660719&55946244094439&HUUUUULK$void001_D$35$100$1$4$1$2</>
+	Command: s$D5B07440D7B8474296397EA746660719&55946244094439&HUUUUULK$void001_D$35$100
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>17$Astral$1AF48FEE98884525A2B92FD820773B9D&55963424577205&kuruw$ServerAstralPlane$21$100$1$4${"ItemID":"item_breakthrough_c1","Amount":3,"ExpLimitIndex":0,"MustDrop":true,"IsBind":true,"ExtraParamsStr":""}$1</>
+	Command: ral$1AF48FEE98884525A2B92FD820773B9D&55963424577205&kuruw$ServerAstralPlane$21$100$1$4${"ItemID":"item_breakthrough_c1","Amount":3,"ExpLimitIndex":0,"MustDrop":true,"IsBind":true,"ExtraParamsSt
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>3$big2</>
+	Command: 
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<at>@チャンピオンテツノ悪夢</>
+	<hotta></>
+	Command: 
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>17$Team$D5B07440D7B8474296397EA746660719&55946244094439&HUUUUULK$void001_D$35$100$1$4$Come join now.$2</>
+	Command: m$D5B07440D7B8474296397EA746660719&55946244094439&HUUUUULK$void001_D$35$100$1$4$Come join now
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>17$Quick$DE8E551CB49B4A3F9ECBCFCE3F2EE2F4&55963424370735&asksk$FB_Team09_D_VIII$90$100$1$4$1$2</>
+	Command: ck$DE8E551CB49B4A3F9ECBCFCE3F2EE2F4&55963424370735&asksk$FB_Team09_D_VIII$90$100
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>17$Quick$5317DD124DCD4E55BDA08C078DC5C5CE&55877524532080&Sher#l$FB32_WorldBoss_level2$50$100$1$4$1$2</>
+	Command: ck$5317DD124DCD4E55BDA08C078DC5C5CE&55877524532080&Sher#l$FB32_WorldBoss_level2$50$100
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>17$Quick$5317DD124DCD4E55BDA08C078DC5C5CE&55877524532080&Sher#l$FB32_WorldBoss_level2$50$100$2$4$1$2</>
+	Command: ck$5317DD124DCD4E55BDA08C078DC5C5CE&55877524532080&Sher#l$FB32_WorldBoss_level2$50$100
+Data Array: "dataArray": []
+
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>3$big21</>
+	Command: 
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>3$big6</>
+	Command: 
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<at>@HUUUUULK</>
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>2$3</>
+	Command: 
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<at>@almachin</>
+Data Array: "dataArray": []
+
+Extracted Patterns:
+	<hotta>17$Team$D5B07440D7B8474296397EA746660719&55946244094439&HUUUUULK$void001_D$35$100$1$4$Come join now.$2</>
+	Command: m$D5B07440D7B8474296397EA746660719&55946244094439&HUUUUULK$void001_D$35$100$1$4$Come joi
+Data Array: "dataArray": []
+
