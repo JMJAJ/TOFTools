@@ -8,5 +8,3 @@
 202x-0x-xx xx:31:33 | 14 letters | <at>@Λpathy</> | Name: Toaster Chlebek
 ```
 - *.md version is for fun, glhf
-
-<img align="left" width="64px" src="https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_qipao_58.png" style="padding-right:10px;" />
