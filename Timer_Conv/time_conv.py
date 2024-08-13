@@ -16,7 +16,8 @@ def main():
         print("\nChoose an operation:")
         print("1. Convert .NET ticks to datetime")
         print("2. Convert datetime to .NET ticks")
-        print("3. Exit")
+        print("3. Current time")
+        print("4. Exit")
         
         choice = input("Enter your choice (1, 2, or 3): ")
         
@@ -39,11 +40,17 @@ def main():
                 print("Invalid datetime format. Please use YYYY-MM-DD HH:MM:SS.ffffff")
         
         elif choice == '3':
+            now = datetime.now()
+            ticks = datetime_to_ticks(now)
+            print(f"Current time: {now}")
+            print(f"Current time in .NET ticks: {ticks}")
+        
+        elif choice == '4':
             print("Exiting the program..")
             break
         
         else:
-            print("Invalid choice. Please enter 1, 2, or 3.")
+            print("Invalid choice. Please enter valid choice.")
 
 if __name__ == "__main__":
     main()
