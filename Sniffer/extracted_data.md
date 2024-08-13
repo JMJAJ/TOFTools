@@ -11,6 +11,6 @@
 - **Avatar Frame**: TestAvatarFrame01
 ---
 <img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_lt.png' style='padding-right:10px;' />
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/Avatar01.png' style='padding-right:10px;' />
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/TestAvatarFrame01.png' style='padding-right:10px;' />
+<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/Avatar_01.png' style='padding-right:10px;' />
+<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/TestAvatarFrame_01.png' style='padding-right:10px;' />
 <br /><br /><br /><br />
