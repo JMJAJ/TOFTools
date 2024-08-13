@@ -33,17 +33,15 @@ def process_packet(packet, output_file):
                         if len(parts) > 4:
                             avatar_frame = parts[4]
 
+                        # this fcked a lot of things, stupid mentor title xd
                         if title == "0":
-                            # If title is "0", set title to chat_bubble + "'s Mentor"
                             title = f"{avatar}'s Mentor"
-                            # Adjust chat_bubble, avatar, and avatar_frame
                             chat_bubble = avatar_frame
                             avatar = parts[5]
                             avatar_frame = parts[6]
 
                         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                        
-                        # Write in Markdown format
                         f.write(f"## Packet Capture: {timestamp}\n\n")
                         f.write(f"- **Data**: `{final_data}`\n")
                         f.write(f"- **Letter Count**: {letter_count}\n")
