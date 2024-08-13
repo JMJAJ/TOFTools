@@ -7,3 +7,4 @@
 202x-0x-xx xx:31:31 | 23 letters | <at>@Toaster Chlebek</> | Name: Erwyn
 202x-0x-xx xx:31:33 | 14 letters | <at>@Λpathy</> | Name: Toaster Chlebek
 ```
+- *.md version is for fun, glhf
