@@ -38,7 +38,7 @@
 - **Avatar**: Avatar06
 - **Avatar Frame**: TestAvatarFrame01
 ---
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_qipao28.png' style='padding-right:10px;' />
+<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/qipao_28.png' style='padding-right:10px;' />
 <img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/Avatar06.png' style='padding-right:10px;' />
 <img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/TestAvatarFrame01.png' style='padding-right:10px;' />
 <br /><br /><br /><br />
