@@ -14,7 +14,8 @@
 - **Letter Count**: 96
 - **Name**: TAP
 - **Title**: Title_tencentshare_os_11
-- **Chat Bubble**: chat_qipao_58 <img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_qipao_58.png' style='padding-right:10px;' />
+- **Chat Bubble**: chat_qipao_58
+- <img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_qipao_58.png' style='padding-right:10px;' />
 - **Avatar**: avatar_101
 - **Avatar Frame**: AvatarFrame_101
 ---
