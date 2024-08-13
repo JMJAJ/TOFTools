@@ -14,21 +14,42 @@ def process_packet(packet, output_file):
                     for tag, content in matches:
                         final_data = f'<{tag}>{content}</>'
                         letter_count = len(final_data)
-                        possible_name_segment = re.split(r'[,\n]', raw_data)[-1].strip()
-                        name_match = re.search(r'\b[A-Z][a-z]+(?:\s[A-Z][a-z]+)*\b', possible_name_segment)
-                        if name_match:
-                            potential_name = name_match.group(0)
-                        else:
-                            single_word_match = re.search(r'\b[A-Z][a-z]+\b', possible_name_segment)
-                            potential_name = single_word_match.group(0) if single_word_match else "Unknown (Non-Latin letter)"
-                        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                         
+                        # Split the raw data by any non-printable or unreadable characters
+                        parts = re.split(r'[^\w\s]', raw_data)
+                        parts = [part for part in parts if part.strip()]  # Remove empty parts
+                        parts.reverse()
+
+                        name = title = chat_bubble = avatar = avatar_frame = ""
+
+                        if len(parts) > 0:
+                            name = parts[0]
+                        if len(parts) > 1:
+                            title = parts[1]
+                        if len(parts) > 2:
+                            chat_bubble = parts[2]
+                        if len(parts) > 3:
+                            avatar = parts[3]
+                        if len(parts) > 4:
+                            avatar_frame = parts[4]
+
+                        if title.endswith("s Mentor,0"):
+                            # Combine the title with the previous part
+                            title = f"{parts[2]} {title}".replace(",0", "")
+                            chat_bubble = ""
+
+                        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                       
                         # Write in Markdown format
                         f.write(f"## Packet Capture: {timestamp}\n\n")
                         f.write(f"- **Data**: `{final_data}`\n")
                         f.write(f"- **Letter Count**: {letter_count}\n")
-                        f.write(f"- **Potential Name**: {potential_name}\n")
-                        # f.write(f"- **Raw Data**: ```{raw_data}```\n\n")
+                        f.write(f"- **Name**: {name}\n")
+                        f.write(f"- **Title**: {title}\n")
+                        f.write(f"- **Chat Bubble**: {chat_bubble}\n")
+                        f.write(f"- **Avatar**: {avatar}\n")
+                        f.write(f"- **Avatar Frame**: {avatar_frame}\n")
+                        # f.write(f"- **Raw Data**: ```{raw_data}```\n")
                         f.write("---\n")
         except UnicodeDecodeError:
             print("UnicodeDecodeError: Cannot decode packet data.")
@@ -38,7 +59,6 @@ def process_packet(packet, output_file):
 def main():
     output_file = "extracted_data.md"
     
-    # Write the Markdown header
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("# Network Packet Capture Log\n\n")
    
