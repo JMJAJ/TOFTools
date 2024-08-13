@@ -20,7 +20,7 @@ def process_packet(packet, output_file):
                         parts = [part for part in parts if part.strip()]  # Remove empty parts
                         parts.reverse()
 
-                        name = title = chat_bubble = avatar = avatar_frame = ""
+                        #name = title = chat_bubble = avatar = avatar_frame = ""
 
                         if len(parts) > 0:
                             name = parts[0]
@@ -33,10 +33,13 @@ def process_packet(packet, output_file):
                         if len(parts) > 4:
                             avatar_frame = parts[4]
 
-                        if title.endswith("s Mentor,0"):
-                            # Combine the title with the previous part
-                            title = f"{parts[2]} {title}".replace(",0", "")
-                            chat_bubble = ""
+                        if title == "0":
+                            # If title is "0", set title to chat_bubble + "'s Mentor"
+                            title = f"{avatar}'s Mentor"
+                            # Adjust chat_bubble, avatar, and avatar_frame
+                            chat_bubble = avatar_frame
+                            avatar = parts[5]
+                            avatar_frame = parts[6]
 
                         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                        
@@ -51,6 +54,13 @@ def process_packet(packet, output_file):
                         f.write(f"- **Avatar Frame**: {avatar_frame}\n")
                         # f.write(f"- **Raw Data**: ```{raw_data}```\n")
                         f.write("---\n")
+
+                        # Write image tags
+                        f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_{chat_bubble[5:]}.png' style='padding-right:10px;' />\n")
+                        f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/{avatar}.png' style='padding-right:10px;' />\n")
+                        f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/{avatar_frame}.png' style='padding-right:10px;' />\n")
+                        f.write(f"<br /><br /><br /><br />\n")
+
         except UnicodeDecodeError:
             print("UnicodeDecodeError: Cannot decode packet data.")
         except Exception as e:
