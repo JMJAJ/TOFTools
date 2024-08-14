@@ -14,31 +14,17 @@
 <img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/avatar_01.png' style='padding-right:10px;' />
 <img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/AvatarFrame_01.png' style='padding-right:10px;' />
 <br /><br /><br /><br />
-## Packet Capture: 2024-08-14 01:20:06
+## Packet Capture: 2024-08-14 15:50:05
 
-- **Data**: `<hotta>3$big21</>`
-- **Letter Count**: 17
+- **Data**: `<hotta>3$big4</>`
+- **Letter Count**: 16
 - **Name**: Jxint
-- **Title**: s Mentor's Mentor
-- **Chat Bubble**: TittyAnna
-- **Avatar**: chat_qipao_159
-- **Avatar Frame**: 
----
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_Anna.png' style='padding-right:10px;' />
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/chat_qipao_159.png' style='padding-right:10px;' />
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/.png' style='padding-right:10px;' />
-<br /><br /><br /><br />
-## Packet Capture: 2024-08-14 01:20:13
+- **Title**: Tam's Mentor
+- **Chat Bubble**: chat_qipao_159
+- **Avatar**: Ace_lv2
+- **Avatar Frame**: AvatarFrame_tencent_14
+- **Raw Data**:
+<details>
+<summary>Raw Data [+]</summary>
 
-- **Data**: `<hotta>17$Team$81C47371A5564619BED7CFC46A9F55A0&55972014016714&Kayle117$Team8P_09_D$60$100$6$8$Raid$2</>`
-- **Letter Count**: 104
-- **Name**: Kayle117
-- **Title**: 1_7_1_1
-- **Chat Bubble**: chat_qipao28
-- **Avatar**: Avatar06
-- **Avatar Frame**: TestAvatarFrame01
----
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/qipao_28.png' style='padding-right:10px;' />
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/Avatar06.png' style='padding-right:10px;' />
-<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/TestAvatarFrame01.png' style='padding-right:10px;' />
-<br /><br /><br /><br />
+```
