@@ -73,7 +73,9 @@ def main():
     def packet_callback(packet):
         process_packet(packet, output_file)
 
-    sniff(filter="host 43.159.31.173 and port 30031", prn=packet_callback)
+    user_iface = input("Enter your iface: ")
+
+    sniff(iface=user_iface,  filter="host 43.159.31.173 and port 30031", prn=packet_callback)
 
 if __name__ == "__main__":
     main()
