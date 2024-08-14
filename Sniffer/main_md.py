@@ -1,5 +1,5 @@
 import re
-from scapy.all import *
+from scapy.all import sniff, Raw
 from datetime import datetime
 
 def process_packet(packet, output_file):
@@ -33,7 +33,6 @@ def process_packet(packet, output_file):
                         if len(parts) > 4:
                             avatar_frame = parts[4]
 
-                        # this fcked a lot of things, stupid mentor title xd
                         if title == "0":
                             title = f"{avatar}'s Mentor"
                             chat_bubble = avatar_frame
@@ -41,6 +40,10 @@ def process_packet(packet, output_file):
                             avatar_frame = parts[6]
 
                         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+                        # print(f"Raw data: {raw_data}")
+                        # print(f"Matches found: {matches}")
+                        # print(f"Parts: {parts}")
                        
                         f.write(f"## Packet Capture: {timestamp}\n\n")
                         f.write(f"- **Data**: `{final_data}`\n")
@@ -50,10 +53,9 @@ def process_packet(packet, output_file):
                         f.write(f"- **Chat Bubble**: {chat_bubble}\n")
                         f.write(f"- **Avatar**: {avatar}\n")
                         f.write(f"- **Avatar Frame**: {avatar_frame}\n")
-                        # f.write(f"- **Raw Data**: ```{raw_data}```\n")
-                        f.write("---\n")
+                        f.write(f"- **Raw Data**:\n<details>\n<summary>Raw Data [+]</summary>\n\n```\n{raw_data}\n```\n</details>\n")
+                        f.write("<br />\n")
 
-                        # Write image tags
                         f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_{chat_bubble[5:]}.png' style='padding-right:10px;' />\n")
                         f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/{avatar}.png' style='padding-right:10px;' />\n")
                         f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/{avatar_frame}.png' style='padding-right:10px;' />\n")
