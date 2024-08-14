@@ -57,7 +57,7 @@ def process_packet(packet, output_file):
                         f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/qipao/icon_{chat_bubble[5:]}.png' style='padding-right:10px;' />\n")
                         f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/Avatar/{avatar}.png' style='padding-right:10px;' />\n")
                         f.write(f"<img align='left' width='64px' src='https://github.com/JMJAJ/TOFTools/blob/icons/AvatarFrame/{avatar_frame}.png' style='padding-right:10px;' />\n")
-                        f.write(f"<br /><br /><br /><br />\n")
+                        f.write(f"<br /><br /><br /><br />\n\n")
 
         except UnicodeDecodeError:
             print("UnicodeDecodeError: Cannot decode packet data.")
